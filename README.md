@@ -1,0 +1,2 @@
+# vehicleSpecsAPI
+A vehicle data API from 1990-2020 which includes the following categories: Make, Model, Year, Trim, Price(US), Transmission, Drive Type, Engine Type, Engine Size, Cylinders, Power (HP), Power (kW), Peak HP RPM, Torque (ft-lb), Torque (Nm), Peak Torque RPM, 0-60 mph, 0-98 km/h, Curb Weight (lbs), Curb Weight (Kg), Fuel Capacity (gal), Fuel Capacity (L), Ground Clearance (in), Ground Clearance (mm), City (mpg), City (L/100 km), City (km/L), Highway (mpg), Highway (L/100 km), Highway (km/L)
