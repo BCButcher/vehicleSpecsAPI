@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7e0d637540fd35eef91f5ed2db1caa515cd6a7d677fbc9682e233b8093fc7d43
-size 739
+{
+    "name": "vehiclespecsapi",
+    "version": "1.0.0",
+    "description": "Vehicle Specifications API",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BCButcher/vehicleSpecsAPI.git"
+    },
+    "author": "Brian C Butcher",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BCButcher/vehicleSpecsAPI/issues"
+    },
+    "homepage": "https://github.com/BCButcher/vehicleSpecsAPI#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.8.1"
+    }
+}
