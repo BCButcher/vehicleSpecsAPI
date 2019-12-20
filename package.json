@@ -1,10 +1,17 @@
 {
     "name": "vehiclespecsapi",
     "version": "1.0.0",
+    "engines": {
+        "node": "^12.x",
+        "npm": "6.13.4"
+    },
     "description": "Vehicle Specifications API",
     "main": "index.js",
     "scripts": {
         "start": "nodemon server.js",
+        "build": "webpack",
+        "heroku-postbuild": "ng build --prod",
+        "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
